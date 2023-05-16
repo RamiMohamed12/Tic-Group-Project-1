@@ -1,0 +1,343 @@
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.home-page
+{
+    height: 100vh;
+    width: 100%;
+
+    background-color: rgb(245, 245, 245);
+}
+
+.header
+{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-left
+{
+    height: 100%;
+    width: 65%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-header
+{
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.span-title
+{
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-style: oblique;
+    /* color: red; */
+}
+
+.header-right
+{
+    height: 100%;
+    width: 27%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.but-header1
+{
+    height: 27%;
+    width: 50%;
+
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid yellow;
+    cursor: pointer;
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.but-header2
+{
+    height: 27%;
+    width: 30%;
+
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid yellow;
+    cursor: pointer;
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.main
+{
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main-left
+{
+    height: 100%;
+    width: 72%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left-top
+{
+    height: 15%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-liste
+{
+    font-size: 2.7rem;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.main-left-bottom
+{
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.liste1
+{
+    height: 90%;
+    width: 25%;
+    /* background-color: white; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.liste2
+{
+    height: 90%;
+    width: 19%;
+    /* background-color: white; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.liste3
+{
+    height: 90%;
+    width: 25%;
+    /* background-color: white; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.liste4
+{
+    height: 90%;
+    width: 12%;
+    /* background-color: white; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li
+{
+    list-style: none;
+    padding-top: 18px;
+    text-align: center;
+    color: black;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.main-right
+{
+    height: 100%;
+    width: 28%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-home
+{
+    height: 55%;
+    width: 78%;
+    border: none;
+}
+
+.but-prof
+{
+    padding: 4px 8px 4px 8px;
+    background: none;
+    border: 3px red solid;
+    
+    font-size: larger;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+.resume-page
+{
+    padding: 40px 55px 40px 55px;
+    background-color: rgb(245, 245, 245);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.resume-1
+{
+    padding: 10px 25px 20px 25px;
+    border-top: 3px solid rgb(29, 60, 69);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-2
+{
+    padding: 10px 25px 20px 25px;
+
+    border-top: 3px solid rgb(29, 60, 69);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-3
+{
+    padding: 10px 25px 20px 25px;
+    border-top: 3px solid rgb(29, 60, 69);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-4
+{
+    padding: 10px 25px 20px 25px;
+    border-top: 3px solid rgb(29, 60, 69);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-5
+{
+    padding: 10px 25px 20px 25px;
+    border-top: 3px solid rgb(29, 60, 69);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-resume
+{
+    margin-left: 5px;
+    padding-bottom: 25px;
+}
+
+.p-resume
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    background-color: white;
+}
+
+.span-vide
+{
+    height: 0px;
+    width: 0px;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid yellow;
+    border-right: 2px solid transparent;
+    display: inline-block;
+    border-radius: 20%;
+}
+
+.span-resume
+{
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+    background-color: white;
+}
+
+.span-gras
+{
+    font-size: 1rem;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    background-color: white;
+}
+
+.span-asavoir
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: oblique;
+    text-align: center;
+    background-color: white;
+}
